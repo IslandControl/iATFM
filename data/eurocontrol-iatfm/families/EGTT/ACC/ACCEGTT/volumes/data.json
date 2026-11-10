@@ -11288,7 +11288,9 @@
       "arrival": [
         "EGJA"
       ],
-      "capacity": {},
+      "capacity": {
+        "maxEntryPerHour": 8
+      },
       "eurocontrol": {
         "sourceKey": "tv:63382f25-d837-4531-9466-e40684fd7301",
         "groups": [
@@ -11325,7 +11327,9 @@
       "departure": [
         "EGJB"
       ],
-      "capacity": {},
+      "capacity": {
+        "maxEntryPerHour": 10
+      },
       "eurocontrol": {
         "sourceKey": "tv:ef2f87b4-35da-4acc-8bd8-45caa58920e1",
         "groups": [
@@ -37794,6 +37798,487 @@
           "autoDSTChangeEnabled": false,
           "skipIn": 99999,
           "skipOut": 99999
+        }
+      }
+},
+    {
+      "id": "EGTTACSBBX",
+      "label": "EGTTACSBBX",
+      "sectorIds": [
+        "EGTT01LUW",
+        "EGTT02LUE",
+        "EGTT12CLE",
+        "EGTT13CLW",
+        "EGTT14CLW",
+        "EGTT15DVR",
+        "EGTT16DVR",
+        "EGTT17LYD",
+        "EGTT18SFD",
+        "EGTT19HRE",
+        "EGTT20HRW",
+        "EGTT21HRL",
+        "EGTT22HRM",
+        "EGTT24LUN",
+        "EGTT25LMW",
+        "EGTT26LME",
+        "EGTT28DTN",
+        "EGTT34DTN",
+        "EGTTDAG",
+        "EGTTDTS",
+        "EGBBTA",
+        "EGHHCR",
+        "EGHIALL",
+        "EGTTBIG",
+        "EGTTCOW",
+        "EGTTCPT",
+        "EGTTGOD",
+        "EGTTJAC",
+        "EGTTLAM",
+        "EGTTLOR",
+        "EGTTNWD",
+        "EGTTOCK",
+        "EGTTRED",
+        "EGTTSAB",
+        "EGTTSWD",
+        "EGTTTIM",
+        "EGTTTMS",
+        "EGTTVAT",
+        "EGTTWEL",
+        "EGTTWIL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 30,
+            "sustained": 22,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA SOUTH (NO TERMINAL) "
+        }
+      }
+    },
+    {
+      "id": "EGTTACS",
+      "label": "EGTTACS",
+      "sectorIds": [
+        "EGTT01LUW",
+        "EGTT02LUE",
+        "EGTT12CLE",
+        "EGTT13CLW",
+        "EGTT14CLW",
+        "EGTT15DVR",
+        "EGTT16DVR",
+        "EGTT17LYD",
+        "EGTT18SFD",
+        "EGTT19HRE",
+        "EGTT20HRW",
+        "EGTT21HRL",
+        "EGTT22HRM",
+        "EGTT24LUN",
+        "EGTT25LMW",
+        "EGTT26LME",
+        "EGTT28DTN",
+        "EGTT34DTN",
+        "EGTTDAG",
+        "EGTTDTS"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 30,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA SOUTH (WITH TERMINAL) "
+        }
+      }
+    },
+ {
+      "id": "EGTTACNBBX",
+      "label": "EGTTACNBBX",
+      "sectorIds": [
+        "EGNMTA",
+        "EGNVCR",
+        "EGNXTA",
+        "EGTT03LKS",
+        "EGTT04LKS",
+        "EGTT07WIR",
+        "EGTT10NOR",
+        "EGTT11NOR",
+        "EGTT3LKST",
+        "EGTT4LKST",
+        "EGTT7WIRT",
+        "EGTTCCFIC",
+        "EGPX29G",
+        "EGPXEE",
+        "EGPXIOM",
+        "EGPXSTF",
+        "EGPXTNT",
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 35,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 25,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT",
+          "ACCEGPX"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA NORTH (NO PX_M) "
+        }
+      }
+    },
+ {
+      "id": "EGTTACN",
+      "label": "EGTTACN",
+      "sectorIds": [
+        "EGNMTA",
+        "EGNVCR",
+        "EGNXTA",
+        "EGTT03LKS",
+        "EGTT04LKS",
+        "EGTT07WIR",
+        "EGTT10NOR",
+        "EGTT11NOR",
+        "EGTT3LKST",
+        "EGTT4LKST",
+        "EGTT7WIRT",
+        "EGTTCCFIC"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 30,
+            "sustained": 25,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT",
+          "ACCEGPX"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA NORTH (WITH PX_M) "
+        }
+      }
+    },
+ {
+      "id": "EGTTACWBBX",
+      "label": "EGTTACWBBX",
+      "sectorIds": [
+        "EGTT05BCN",
+        "EGTT06BHD",
+        "EGTT08STU",
+        "EGTT09LND",
+        "EGTT35PEM",
+        "EGTT36EXE",
+        "EGJJSKE",
+        "EGJJORT",
+        "EGJJF45U",
+        "EGJJF45L",
+        "EGFFALL",
+        "EGGDALL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 40,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 30,
+            "sustained": 22,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT",
+          "APPEGJJ1"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA WEST (NO CARDIFF/JERSEY) "
+        }
+      }
+    },
+ {
+      "id": "EGTTACW",
+      "label": "EGTTACW",
+      "sectorIds": [
+        "EGTT05BCN",
+        "EGTT06BHD",
+        "EGTT08STU",
+        "EGTT09LND",
+        "EGTT35PEM",
+        "EGTT36EXE"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 45,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 35,
+            "sustained": 28,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTT  :  LONDON AREA WEST "
+        }
+      }
+    },
+ {
+      "id": "EGTLBBX",
+      "label": "EGTLBBX",
+      "sectorIds": [
+        "EGBBTA",
+        "EGHHCR",
+        "EGHIALL",
+        "EGTTBIG",
+        "EGTTCOW",
+        "EGTTCPT",
+        "EGTTGOD",
+        "EGTTJAC",
+        "EGTTLAM",
+        "EGTTLOR",
+        "EGTTNWD",
+        "EGTTOCK",
+        "EGTTRED",
+        "EGTTSAB",
+        "EGTTSWD",
+        "EGTTTIM",
+        "EGTTTMS",
+        "EGTTVAT",
+        "EGTTWEL",
+        "EGTTWIL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 25,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGTT",
+          "ACCEGTT9",
+          "FISEGTT",
+          "TCEGTT"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGTL  :  LONDON TERMINAL ALL "
+        }
+      }
+    },
+ {
+      "id": "EGJT",
+      "label": "EGJT",
+      "sectorIds": [
+        "EGJJSKE",
+        "EGJJORT",
+        "EGJJF45U",
+        "EGJJF45L"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 30,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 25,
+            "sustained": 20,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "APPEGJJ1"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGJT  :  JERSEY CONTROL "
+        }
+      }
+    },
+ {
+      "id": "EGPXMAN",
+      "label": "EGPXMAN",
+      "sectorIds": [
+        "EGNMTA",
+        "EGNVCR",
+        "EGPX29G",
+        "EGPXEE",
+        "EGPXIOM",
+        "EGPXN",
+        "EGPXSTF",
+        "EGPXTNT",
+        "EGPXWAL"
+      ],
+      "capacity": {
+        "maxEntryPerHour": 25,
+        "otmv": [
+          {
+            "durationMinutes": 15,
+            "startUtc": "2023-08-10T00:00:00.000Z",
+            "endUtc": "2999-12-31T00:00:00.000Z",
+            "peak": 20,
+            "sustained": 16,
+            "sustainedOccurrence": 99,
+            "sustainedElapsed": 99
+          }
+        ],
+        "otmvSource": "ivao"
+      },
+      "eurocontrol": {
+        "groups": [
+          "ACCEGPX",
+          "ACCEGTT"
+        ],
+        "sourceDate": "2026-11-10",
+        "sourceState": {
+          "$type": "airspace.em.tv.TrafficVolumeState",
+          "period": {
+            "start": 1691625600000,
+            "end": 32503593600000
+          },
+          "name": "EGPX_M  :  SCOTTISH CONTROL | MANCHESTER "
         }
       }
     }
